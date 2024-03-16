@@ -1,34 +1,19 @@
-* {
-    /*Dispensa a necessidade de calculo em futuras medições para o layout*/
-    box-sizing: border-box;
-}
-
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
-
-header {
+header{
     width: 100%;
-    height: 200px;
-    background: #ccc;
+    height: 150px;
+    background-color: #5e299a;
 }
 
-nav{
-    width: 100%;
-    height: 100px;
-    background: #999;
+header .container{
+    position: relative;
 }
 
-section{
-    width: 100%;
-    height: 500px;
-    background: fixed #95a5a6;
+header .header-black{
+    background-color: #000;
+    height: 40px;
 }
 
-footer{
-    width: 100%;
-    height: 200px;
-    background: scroll #1BA39C;
+header #logotipo{
+    position: absolute;
+    top: -20px;
 }
