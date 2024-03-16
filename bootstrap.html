@@ -27,7 +27,29 @@
 
         <div class="col-md-6">
             <label for="DateNasc" class="form-label">Date.Nasc</label>
-            <input type="date"  max="2024-01-01" class="form-control" id="DateNasc" name="DateNasc" placeholder="Sua data de nascimento" required>
+            <input type="r"  max="2024-01-01" class="form-control" id="DateNasc" name="DateNasc" placeholder="Sua data de nascimento" required>
+        </div>
+
+        <div class="col-md-6">
+            <label>Sexo.:</label>
+            <input type="radio" id="masculino" name="sexo" checked>
+            <label for="masculino" class="form-label">M</label>
+
+            <input type="radio" id="feminino" name="sexo" >
+            <label for="feminino" class="form-label">F</label>
+        </div>
+
+        <div class="col-md-6">
+            <label>Aceita os termos de contrato.:</label>
+            <br />
+            <label for="termos" class="form-label">Li e aceito</label>
+            <input type="checkbox" id="concordo" name="termos" aria-label="concordo">
+        </div>
+        <div class="col-md-6">
+            <label>Você se considera como.:</label>
+            <p>De 0 a 50, onde 0 é negro e 50 é branco</p>
+            <br />
+            <input type="range" id="graucor" name="graucor" aria-label="cor" min="0" max="50" value="0">
         </div>
 
         <div class="col-12">
